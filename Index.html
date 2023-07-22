@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OASIS INTERNSHIP</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card {
+            background-color: #f2f2f2;
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+        }
+        .button-container {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            transition: transform 0.3s;
+        }
+        .calculator-btn {
+            background-color: #007bff;
+        }
+        .tribute-btn {
+            background-color: #28a745;
+        }
+        .todo-btn {
+            background-color: #dc3545;
+        }
+        .button-container:hover {
+            transform: scale(1.05);
+        }
+        .done-by {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .about-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .contact-info {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>OASIS INTERNSHIP</h1>
+            <div class="about-section">
+                <img class="profile-photo" src="nvcn.png" alt="Your Photo">
+                <h2>Yuvraj Bhagwat Wadavale</h2>
+                <p class="contact-info">Email: yuvrajwadavale2@gmail.com</p>
+            </div>
+        <div>
+            <h2></h2>
+        </div>
+            <div class="buttons-container">
+                <div class="button-container calculator-btn" onclick="openCalculator()">Calculator</div>
+                <div class="button-container tribute-btn" onclick="openTributePage()">Tribute Page</div>
+                <div class="button-container todo-btn" onclick="openToDoApp()">To Do Web App</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+        function openCalculator() {
+            window.location.href = "Calculator.html"; // Replace 'calculator.html' with the actual file path of your calculator page
+        }
+
+        function openTributePage() {
+            window.location.href = "Tribute Page.html"; // Replace 'tribute_page.html' with the actual file path of your tribute page
+        }
+
+        function openToDoApp() {
+            window.location.href = "To do Webapp.html"; // Replace 'todo_app.html' with the actual file path of your to-do web app page
+        }
+    </script>
+</body>
+</html>
